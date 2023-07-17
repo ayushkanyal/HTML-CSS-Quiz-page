@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+/* Header Section */
+
+header{
+   
+    background-color: rgb(2, 2, 56);
+    padding: 15px 0px;
+    display: flex;
+    font-family: sans-serif;
+}
+
+header img{
+    margin: 0 auto 0  0.4rem;
+    height: 2.5rem;
+    width: max(100px, 18vw);
+    aspect-ratio: 35/4;
+}
+
+header h1{
+    color: hsl(53, 100%, 50%);
+    margin: 7px auto 0px;
+    font-size: min(5vw, 1.2em);
+}
+
+.header-buttons{
+    margin: 7px 20px 0 auto;
+}
+
+header a{
+    text-decoration: none;
+    margin: 0 30px;
+    border: 0;
+    font-size: 1.5rem;
+    color: rgb(192, 190, 190);
+    background-color: rgb(2, 2, 56);
+    padding: 4px;
+}
+
+header a:hover{
+    background-color: gainsboro;
+    color: black;
+}
