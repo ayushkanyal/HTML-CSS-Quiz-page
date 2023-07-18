@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: sans-serif;
 }
 /* Header Section */
 
@@ -8,7 +9,7 @@ header{
     background-color: rgb(2, 2, 56);
     padding: 15px 0px;
     display: flex;
-    font-family: sans-serif;
+    
 }
 
 header img{
@@ -41,4 +42,29 @@ header a{
 header a:hover{
     background-color: gainsboro;
     color: black;
+}
+
+/* main element */
+
+main{
+    background-color: aliceblue;
+    padding: 3em 10em;
+}
+
+main section{
+    width: 70%;
+    margin: 3rem auto;
+}
+
+main h2{
+    margin: 0;
+}
+
+main hr{
+    border: 2px solid rgb(225, 215, 215);
+    color: rgb(225, 215, 215);
+    margin: 0;
+}
+main form{
+    padding: 10px 10px;
 }
