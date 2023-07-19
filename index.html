@@ -20,15 +20,60 @@
         </span>
     </header>
     <main>
-        <section class="student-info">
+        <section id="student-info">
             <h2>Student Info</h2>
             <hr>
             <form>
-                <label for="Name">
+                <label for="name">
                     Name:
-                    <input id="Name" type="text">
-                    </input>
+                    <input id="name" type="text">
+
                 </label>
+                <label for="email">
+                    Email:
+                    <input id="email" type="email">
+
+                </label>
+                <label for="dob">
+                    D.O.B.:
+                    <input id="dob" type="date" min="1/1/2015">
+
+                </label>
+            </form>
+        </section>
+
+        <section id="html">
+            <h2>HTML</h2>
+            <hr>
+            <form>
+                <p class="large">Question #1</p>
+                <p>The legend element represents a caption for the content of its parent fieldset element</p>
+                <span>
+                    <input id="true" type="radio">
+                    <label for="true">
+                        True
+                    </label>
+                </span>
+                <span>
+                    <input id="false" type="radio">
+                    <label for="false">
+                        False
+                    </label>
+                </span>
+                <p class="large">Question #2</p>
+                <p>A label element nesting an input element is required to have a for attribute with the same value as the input's id</p>
+                <span>
+                    <input id="true" type="radio">
+                    <label for="true">
+                        True
+                    </label>
+                </span>
+                <span>
+                    <input id="false" type="radio">
+                    <label for="false">
+                        False
+                    </label>
+                </span>
             </form>
         </section>
     </main>
