@@ -51,20 +51,50 @@ main{
     padding: 3em 10em;
 }
 
-main section{
+section{
     width: 70%;
     margin: 3rem auto;
 }
 
-main h2{
+h2{
     margin: 0;
 }
 
-main hr{
+hr{
     border: 2px solid rgb(225, 215, 215);
     color: rgb(225, 215, 215);
     margin: 0;
 }
-main form{
-    padding: 10px 10px;
+
+section{
+    margin: 20px auto;
+}
+
+form{
+    display: block;
+    padding: 20px 30px;
+    border: 1px solid black;
+}
+
+label {
+    display: block;
+}
+
+input{
+    width: max(400px, 7vw);   
+    margin: 20px 0;
+}
+
+/* HTML section specific CSS */
+
+.large{
+    font-size: 21px;
+}
+
+input[type="radio"]{
+    width: auto;    
+}
+
+#html label{
+    display: inline-block;
 }
