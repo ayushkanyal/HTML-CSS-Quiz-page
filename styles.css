@@ -53,7 +53,7 @@ main{
 
 section{
     width: 70%;
-    margin: 3rem auto;
+    margin: 3.5rem auto;
 }
 
 h2{
@@ -64,10 +64,6 @@ hr{
     border: 2px solid rgb(225, 215, 215);
     color: rgb(225, 215, 215);
     margin: 0;
-}
-
-section{
-    margin: 20px auto;
 }
 
 form{
@@ -85,7 +81,7 @@ input{
     margin: 20px 0;
 }
 
-/* HTML section specific CSS */
+/* HTML section */
 
 .large{
     font-size: 21px;
@@ -96,5 +92,29 @@ input[type="radio"]{
 }
 
 #html label{
-    display: inline-block;
+    display: inline;
+}
+span{
+    display: block;
+}
+
+/* CSS section */
+
+textarea{
+    height: 5rem;
+    width: max(200px, 4vw);
+}
+
+/* button */
+
+.btn{
+    margin: 3rem auto;
+}
+
+button{
+    border: 2.5px solid rgb(32, 17, 32);
+    background-color: rgb(185, 178, 178);
+    width: max(500px, 4vw);
+    height: 5rem;
+    font-size: 28px;
 }
