@@ -61,15 +61,14 @@ h2{
 }
 
 hr{
-    border: 2px solid rgb(225, 215, 215);
-    color: rgb(225, 215, 215);
+    border: 2px solid rgb(216, 216, 216);
+    color: rgb(216, 216, 216);
     margin: 0;
 }
 
 form{
     display: block;
     padding: 20px 30px;
-    border: 1px solid black;
 }
 
 label {
@@ -112,9 +111,27 @@ textarea{
 }
 
 button{
+    position: relative;
+    left: 30%;
     border: 2.5px solid rgb(32, 17, 32);
     background-color: rgb(185, 178, 178);
     width: max(500px, 4vw);
     height: 5rem;
     font-size: 28px;
+}
+
+
+/* footer */
+
+footer{
+    background-color: rgb(2, 2, 56);
+    padding: 15px 0px;
+    text-align: center;
+    
+}
+
+footer p{
+    color: rgb(192, 190, 190);
+    font-style: italic;
+    margin: 2px;
 }
