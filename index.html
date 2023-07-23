@@ -49,13 +49,13 @@
                 <p class="large">Question #1</p>
                 <p>The legend element represents a caption for the content of its parent fieldset element</p>
                 <span>
-                    <input id="true" type="radio">
+                    <input name="q1" id="true" type="radio" value="True">
                     <label for="true">
                         True
                     </label>
                 </span>
                 <span>
-                    <input id="false" type="radio">
+                    <input name="q1" id="false" type="radio" value="False">
                     <label for="false">
                         False
                     </label>
@@ -63,13 +63,13 @@
                 <p class="large">Question #2</p>
                 <p>A label element nesting an input element is required to have a for attribute with the same value as the input's id</p>
                 <span>
-                    <input id="true" type="radio">
+                    <input name="q2" id="true" type="radio" value="True">
                     <label for="true">
                         True
                     </label>
                 </span>
                 <span>
-                    <input id="false" type="radio">
+                    <input name="q2" id="false" type="radio" value="False">
                     <label for="false">
                         False
                     </label>
@@ -81,15 +81,15 @@
             <h2>CSS</h2>
             <hr>
             <form>
-                <p>Are you an frontend developer?</p>
-                <select name="yes-no" id="yes-no">
-                    <option value="select" selected>Select an option</option>
+                <p>Are you a frontend developer?</p>
+                <select name="yes-no" id="yes-no" required>
+                    <option value="" selected>Select an option</option>
                     <option value="yes">Yes</option>
                     <option value="no">No</option>
                 </select>
 
                 <p>Do you have any questions:</p>
-                <textarea placeholder="Who is flexbox..."></textarea>
+                <textarea rows="5" cols="24" placeholder="Who is flexbox..."></textarea>
                 
             </form>
         </section>
@@ -98,10 +98,12 @@
         </span>
     </main>
     <footer>
+        <div class="footer-text">
            <a href="freecodecamp.com"><p>freeCodeCamp</p></a>
            <p>San Francisco</p>
            <p>California</p>
            <p>USA</p>
+        </div>
        
     </footer>
 </body>
