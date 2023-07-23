@@ -1,3 +1,7 @@
+* {
+    scroll-behavior: smooth;
+  }
+  
 body{
     margin: 0;
     font-family: sans-serif;
@@ -32,11 +36,11 @@ header h1{
 header a{
     text-decoration: none;
     margin: 0 30px;
-    border: 0;
     font-size: 1.5rem;
     color: rgb(192, 190, 190);
     background-color: rgb(2, 2, 56);
     padding: 4px;
+    cursor:pointer;
 }
 
 header a:hover{
@@ -99,10 +103,7 @@ span{
 
 /* CSS section */
 
-textarea{
-    height: 5rem;
-    width: max(200px, 4vw);
-}
+
 
 /* button */
 
